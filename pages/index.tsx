@@ -53,6 +53,14 @@ const ShowInvite = ({ currentUrl, guest }) => {
       ? 'invitationGreetingF'
       : 'invitationGreetingP'
 
+  const invitationIntroKey = guest.type === 'plural'
+    ? 'invitationIntroP'
+    : 'invitationIntroS'
+
+  const invitationOutroKey = guest.type === 'plural'
+    ? 'invitationOutroP'
+    : 'invitationOutroS'
+
   const handleCalendar = useCallback(() => atcb_action({
     "name": eventTitle,
     "description": eventDescription,
@@ -270,7 +278,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
                       <p style={{ fontSize: "1.5rem" }}>{guest.name},</p>
                     </div>
                   )}
-                  <h3 className="title">{t("invitationIntro")}</h3>
+                  <h3 className="title">{t(invitationIntroKey)}</h3>
                   <div
                     style={{
                       textAlign: "left",
@@ -290,12 +298,12 @@ const ShowInvite = ({ currentUrl, guest }) => {
                     >
                       <i>
                         {t("invitationContent")}
-                        {t("invitationOutro") &&
-                          !t("invitationOutro").startsWith("[missing") && (
+                        {t(invitationOutroKey) &&
+                          !t(invitationOutroKey).startsWith("[missing") && (
                             <>
                               <br />
                               <br />
-                              {t("invitationOutro")}
+                              {t(invitationOutroKey)}
                             </>
                           )}
                       </i>

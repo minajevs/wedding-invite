@@ -4,9 +4,11 @@
   "invitationGreetingM": "Дорогой",
   "invitationGreetingF": "Дорогая",
   "invitationGreetingP": "Дорогие",
-  "invitationIntro": "Приглашаем Вас",
+  "invitationIntroS": "Приглашаем Тебя",
+  "invitationIntroP": "Приглашаем Вас",
   "invitationContent": "разделить радость дня нашей свадьбы.",
   "invitationContentTextAlign": "center",
-  "invitationOutro": "Мы будем счастливы видеть вас в этот особенный день.",
+  "invitationOutroS": "Мы будем счастливы видеть Тебя в этот особенный день.",
+  "invitationOutroP": "Мы будем счастливы видеть Вас в этот особенный день.",
   "btnAddToMyCalendar": "Добавить в календарь"
 }
