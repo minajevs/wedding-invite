@@ -12,7 +12,6 @@ const translateConfig = (appConfig, locale) => {
   if (!locale || locale === defaultLocale) {
     return appConfig
   }
-  console.log(locale)
   // Replace config with lang
   const configLang = appConfig.lang[locale]
   if (configLang === undefined) {
@@ -105,7 +104,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
                         <img
                           style={{ maxHeight: 100, margin: 25, marginTop: 0 }}
                           src={logo.headerLogo}
-                          alt="logo"
+                          alt="rings logo"
                         />
                         <h5
                           className="slider_sub_title"
@@ -355,7 +354,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
         <div className="container" style={{ marginBottom: 40 }}>
           <div className="footer_widget pt-50 pb-10 text-center">
             <div className="footer_logo">
-              <img src={logo.footerLogo} style={{ maxHeight: 100 }} />
+              <img src={logo.footerLogo} style={{ maxHeight: 100 }} alt="rings logo" />
             </div>
             <div className="footer_title">
               <h3 className="title">{coupleName}</h3>

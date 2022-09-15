@@ -1,12 +1,108 @@
 {
   "meta": {
-    "lastUpdatedAt": "2022-09-15T17:19:16.961Z"
+    "lastUpdatedAt": "2022-09-15T18:36:32.943Z"
   },
   "data": [
     {
-      "guestId": "aaa",
-      "name": "Джон и Джоана",
+      "guestId": "papamama",
+      "name": "Мама Илона и Папа Саша",
       "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "mamapapa",
+      "name": "Мама Алёна и Папа Коля",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "siskris",
+      "name": "Jekaterina un Kristaps",
+      "type": "plural",
+      "locale": "lv"
+    },
+    {
+      "guestId": "phobos",
+      "name": "Женя и Дима",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "annpavel",
+      "name": "Аня и Паша",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "black",
+      "name": "Антон",
+      "type": "male",
+      "locale": "ru"
+    },
+    {
+      "guestId": "maestro",
+      "name": "Алёна и Никита",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "boston",
+      "name": "Оливия и Эрик",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "katemarcis",
+      "name": "Jekaterina un Mārcis",
+      "type": "plural",
+      "locale": "lv"
+    },
+    {
+      "guestId": "annleon",
+      "name": "Аня и Леон",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "singularity",
+      "name": "Артур",
+      "type": "male",
+      "locale": "ru"
+    },
+    {
+      "guestId": "connellick",
+      "name": "Дима",
+      "type": "male",
+      "locale": "ru"
+    },
+    {
+      "guestId": "jana",
+      "name": "Яна",
+      "type": "female",
+      "locale": "ru"
+    },
+    {
+      "guestId": "karina",
+      "name": "Карина",
+      "type": "female",
+      "locale": "ru"
+    },
+    {
+      "guestId": "invite",
+      "name": "Тётя Лена и Ася",
+      "type": "plural",
+      "locale": "ru"
+    },
+    {
+      "guestId": "gena",
+      "name": "Дядя Гена",
+      "type": "male",
+      "locale": "ru"
+    },
+    {
+      "guestId": "vladik",
+      "name": "Владик",
+      "type": "male",
       "locale": "ru"
     }
   ]

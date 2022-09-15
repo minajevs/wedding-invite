@@ -27,22 +27,6 @@ export default ({
 
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link
-        rel="shortcut icon"
-        href="/assets/images/favicon.png?123"
-        type="image/png"
-      />
-      <link rel="stylesheet" href="/assets/css/animate.css" />
-      <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="/assets/css/default.css" />
-      <link rel="stylesheet" href="/assets/css/style.css" />
-
-      {/* FOR IE9 below */}
-      {/* [if lt IE 9]> */}
-      <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
-      <script src="/assets/js/vendor/modernizr-3.7.1.min.js"></script>
-      <script src="/assets/js/bootstrap.min.js"></script>
-      <script src="/assets/js/jquery.easing.min.js"></script>
     </Head>
   )
 }
