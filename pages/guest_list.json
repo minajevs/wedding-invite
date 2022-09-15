@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdatedAt": "2022-09-15T18:36:32.943Z"
+    "lastUpdatedAt": "2022-09-15T18:38:48.001Z"
   },
   "data": [
     {
@@ -40,7 +40,7 @@
       "locale": "ru"
     },
     {
-      "guestId": "maestro",
+      "guestId": "spravedlivo",
       "name": "Алёна и Никита",
       "type": "plural",
       "locale": "ru"
