@@ -34,7 +34,7 @@ const lang = {
     coupleName: "Dmitrijs un Eva",
     weddingDay: "Ceturtdien",
     weddingDate: "2022. gada 13. oktobrī",
-    weddingTimeStart: "Viesus gaidām sakot no 14:00",
+    weddingTimeStart: "Viesus gaidīsim sākot no 14:00",
   },
 }
 
