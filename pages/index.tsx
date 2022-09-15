@@ -58,7 +58,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
     "description": eventDescription,
     "startDate": "2022-10-13",
     "endDate": "2022-10-13",
-    "startTime": "15:00",
+    "startTime": "14:00",
     "endTime": "23:00",
     "location": `${venue.name}, ${venue.city}, ${venue.country}`,
     "options": [

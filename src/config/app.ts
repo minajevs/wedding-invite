@@ -23,8 +23,8 @@ const baseConfig = {
   },
   ogTags: {
     logo: "/assets/images/logo.png",
-    siteName: "wedding.dexie.me",
-    publishedTime: "2020-01-25",
+    siteName: "13oktobris.lv",
+    publishedTime: "2022-09-15",
   },
 }
 
