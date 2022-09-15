@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "lastUpdatedAt": "2022-09-15T17:19:16.961Z"
+  },
+  "data": [
+    {
+      "guestId": "aaa",
+      "name": "Джон и Джоана",
+      "type": "plural",
+      "locale": "ru"
+    }
+  ]
+}
