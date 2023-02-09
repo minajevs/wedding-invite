@@ -136,7 +136,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
                           data-delay="1s"
                           style={{ animationDelay: "1s" }}
                         >
-                          {venue.name}, {venue.city}, {venue.country}
+                          Спасибо что были с нами!
                         </span>
                         <div
                           className="time"
@@ -144,7 +144,7 @@ const ShowInvite = ({ currentUrl, guest }) => {
                           data-delay="1s"
                           style={{ animationDelay: "1s" }}
                         >
-                          {weddingTime.split(' ')[0]}
+
                         </div>
                       </div>
                     </div>
@@ -161,8 +161,8 @@ const ShowInvite = ({ currentUrl, guest }) => {
           <img src="/assets/images/shape-1.png" alt="shape" />
         </div>
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 text-center">
               <div
                 className="section_title pt-50 wow fadeIn"
                 data-wow-duration="1.3s"
@@ -174,69 +174,16 @@ const ShowInvite = ({ currentUrl, guest }) => {
                   animationName: "fadeIn",
                 }}
               >
-                <h3 className="title">{t("eventDate")}:</h3>
-                <p>{weddingDateBrief}</p>
-                <div
+                <h3 className="title">Фотографии:</h3>
+                <p
                   style={{
-                    paddingTop: "0.2rem",
-                    paddingBottom: "0.2rem",
+                    marginTop: '2.5rem',
+                    marginBottom: '2.5rem',
                   }}
                 >
-                  <a onClick={handleCalendar} style={{
-                    cursor: 'pointer',
-                    textDecoration: 'underline'
-                  }}>{t("btnAddToMyCalendar")}</a>
-                </div>
+                  <a href='https://soulpicturelv.gallery.photo/gallery/eva-dima/'>Доступны по ссылке</a>
+                </p>
                 <img src="/assets/images/section_shape.png" alt="Shape" />
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <div
-                className="wow fadeIn"
-                data-wow-duration="1.3s"
-                data-wow-delay="0.6s"
-                style={{
-                  visibility: "visible",
-                  animationDuration: "1.3s",
-                  animationDelay: "0.6s",
-                  animationName: "fadeIn",
-                }}
-              >
-                <div className="coming_soon_count d-flex justify-content-end pt-20">
-                  <div
-                    style={{
-                      marginRight: 20,
-                      width: 360,
-                      height: 138,
-                      backgroundColor: "transparent",
-                    }}
-                    className="single_count d-flex align-items-center justify-content-center mt-30"
-                  >
-                    <div
-                      className="count_content"
-                      style={{ zIndex: 1, paddingTop: 20 }}
-                    >
-                      <a href={venue.mapUrl}>
-                        <img
-                          style={{ borderRadius: 5 }}
-                          src="/assets/images/map-2.png"
-                          alt="annas koku skola map"
-                        />
-                      </a>
-                      <a
-                        href={venue.mapUrl}
-                        style={{
-                          maxWidth: "75vw",
-                          overflowX: "hidden",
-                          textOverflow: "ellipsis",
-                          marginTop: 10,
-                        }}
-                      >
-                        {venue.mapUrl}
-                      </a>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -246,119 +193,8 @@ const ShowInvite = ({ currentUrl, guest }) => {
         </div>
       </section>
 
-      <section id="contact" className="contact_area">
-        <div className="container">
-          <div
-            className="contact_wrapper wow fadeInUpBig"
-            data-wow-duration="1.3s"
-            data-wow-delay="0.4s"
-            style={{
-              paddingBottom: 30,
-              boxShadow: "none",
-              visibility: "visible",
-              animationDuration: "1.3s",
-              animationDelay: "0.4s",
-              animationName: "fadeInUp",
-            }}
-          >
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <div className="section_title text-center pb-30">
-                  {guest.name && (
-                    <div
-                      style={{
-                        fontSize: "1.3rem",
-                        textAlign: "center",
-                        maxWidth: 400,
-                        margin: "auto",
-                        paddingBottom: 20,
-                      }}
-                    >
-                      {t(invitationGreetingKey)}
-                      <p style={{ fontSize: "1.5rem" }}>{guest.name},</p>
-                    </div>
-                  )}
-                  <h3 className="title">{t(invitationIntroKey)}</h3>
-                  <div
-                    style={{
-                      textAlign: "left",
-                      paddingTop: 20,
-                      paddingBottom: 20,
-                      maxWidth: 400,
-                      margin: "auto",
-                    }}
-                  >
-                    <p
-                      style={{
-                        fontSize: "1.3rem",
-                        lineHeight: "inherit",
-                        color: "dimgrey",
-                        textAlign: t("invitationContentTextAlign"),
-                      }}
-                    >
-                      <i>
-                        {t("invitationContent")}
-                        {t(invitationOutroKey) &&
-                          !t(invitationOutroKey).startsWith("[missing") && (
-                            <>
-                              <br />
-                              <br />
-                              {t(invitationOutroKey)}
-                            </>
-                          )}
-                      </i>
-                    </p>
-                  </div>
-
-                  <p className="text">
-                    <a
-                      href={venue.mapUrl}
-                      style={{
-                        borderBottom: "0.2rem solid",
-                        marginBottom: 10,
-                      }}
-                    >
-                      <b>{venue.name}</b>
-                    </a>
-                    <br />
-                    {venue.addressLine1}, {venue.city}, {venue.country}
-                  </p>
-                  <p className="text" style={{ marginTop: 10 }}>
-                    <b>
-                      {weddingDate}  ·  {weddingTime}
-                    </b>
-                  </p>
-                  <p className="text" style={{ marginTop: 10 }}>
-                    {weddingTimeStart}
-                  </p>
-
-                  {t("invitationClosing") &&
-                    !t("invitationClosing").startsWith("[missing") && (
-                      <p
-                        className="text"
-                        style={{
-                          fontStyle: "italic",
-                          maxWidth: 420,
-                          margin: "auto",
-                          marginTop: 60,
-                        }}
-                        dangerouslySetInnerHTML={{
-                          __html: t("invitationClosing"),
-                        }}
-                      ></p>
-                    )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer section */}
       <footer id="footer" className="footer_area">
-        <div className="footer_shape_1">
-          <img src="/assets/images/shape-1.png" alt="shape" />
-        </div>
         <div className="container" style={{ marginBottom: 40 }}>
           <div className="footer_widget pt-50 pb-10 text-center">
             <div className="footer_logo">
